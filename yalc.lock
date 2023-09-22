@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "packages": {
+    "@zenflux/redux": {
+      "signature": "26800aa0bca5cdb05a295ba0871d0f83",
+      "file": true,
+      "replaced": "^0.0.1-dev.2"
+    },
+    "@zenflux/core": {
+      "signature": "b88fcbed4cc5abd9e81a30623bb4c5a2",
+      "file": true
+    }
+  }
+}

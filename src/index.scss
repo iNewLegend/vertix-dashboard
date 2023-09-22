@@ -1,0 +1,32 @@
+@import "./_/fonts";
+@import "./_/varibales";
+@import "./_/card";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* code */
+code[contenteditable] {
+    outline: 0px solid;
+}
+
+code[contenteditable]:focus {
+    border-bottom: $danger 1px solid;
+}
+
+code[contenteditable] br {
+    display: none;
+}
+
+code.black {
+    padding: 3.2px;
+    border-radius: 7.5px;
+    color: $gray-200;
+    background-color: #0000006F;
+}
+
+@import "./dashboard/dashboard";

@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@internal/*": [
+				"src/*"
+			],
+			"@dashboard/*": [
+				"src/dashboard/*"
+			],
+			"@vertix-base/*": [
+				"../vertix-base/src/lib/*"
+			]
+		}
+	}
+}

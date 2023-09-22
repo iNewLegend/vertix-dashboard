@@ -1,0 +1,24 @@
+$card-cap-bg: $gray-950;
+$card-cap-color: $gray-100;
+
+$card-cap-padding-y: 20px;
+$card-cap-padding-x: 20px;
+
+$card-bg: $gray-900;
+
+$card-border-color: $black;
+$card-border-width: 1px;
+$card-border-radius: 5px;
+
+.card-body {
+    border-top: 0.1em solid #ffffff21;
+}
+
+.card-header {
+    font-family: $font-inter;
+    font-weight: 400;
+    font-size: 18px;
+
+    letter-spacing: 0.04em;
+}
+

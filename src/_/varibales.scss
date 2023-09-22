@@ -1,0 +1,80 @@
+$grid-breakpoints: (
+        xs: 0,
+        xsm: 362px,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px,
+        xxxl: 1600px,
+        xxxxl: 1800px,
+        xxxxxl: 2000px,
+        bs: 2300px,
+        bsm: 2600px,
+        bmd: 2900px,
+        blg: 3200px,
+);
+
+$white: #ffffff;
+$gray-100: #e2e4e9;
+$gray-200: #949ba4;
+$gray-300: #76777c;
+$gray-500: #5f6066;
+$gray-500: #44454b;
+$gray-600: #0E1015;
+$gray-700: #101318;
+$gray-800: #181B20;
+$gray-900: #12151B;
+$gray-950: #1A1D22; // Custom.
+
+$black: #000000;
+
+$blue: #4E91FE;
+$indigo: #0059ff;
+$purple: #8e44ad;
+$pink: #e91e63;
+$red: #f04747;
+$orange: #f26522;
+$yellow: #f69f43;
+$green: #248046;
+$teal: #1abc9c;
+$cyan: #0dcaf0;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+$primary-text-emphasis-dark: tint-color($primary, 40%);
+$secondary-text-emphasis-dark: $gray-200;
+$success-text-emphasis-dark: tint-color($success, 40%);
+$info-text-emphasis-dark: tint-color($info, 40%);
+$warning-text-emphasis-dark: tint-color($warning, 40%);
+$danger-text-emphasis-dark: tint-color($danger, 40%);
+$light-text-emphasis-dark: $gray-100;
+$dark-text-emphasis-dark: $gray-300;
+
+/* Font */
+$font-family-base: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+/* Components */
+$component-active-bg: $gray-800;
+
+$btn-font-family: $font-component;
+
+$border-color-dark: #00000026;
+
+$body-color-dark: $gray-200;
+$headings-color-dark: $gray-200;
+
+$breadcrumb-active-color: $gray-100;
+
+$body-secondary-bg-dark: $gray-700;
+
+$theme-colors-bg-subtle-dark: (
+    "secondary": $gray-800,
+);
